@@ -1,0 +1,6 @@
+.thanks {
+  color: var(--primary-color);
+}
+.validationMessage {
+  margin-left: 4rem;
+}

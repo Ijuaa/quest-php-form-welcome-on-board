@@ -1,41 +1,48 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
-    margin: 0;
-    line-height: 1.5;
-    background-color: #fff;
-    font-family: "Source Sans 3", Verdana, Geneva, Tahoma, sans-serif;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+  margin: 0;
+  line-height: 1.5;
+  background-color: #fff;
+  font-family: "Source Sans 3", Verdana, Geneva, Tahoma, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
-h1, h2, h3 {
-    font-family: "Montserrat", Verdana, Geneva, Tahoma, sans-serif;
+h1,
+h2,
+h3 {
+  font-family: "Montserrat", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+  font-size: 3rem;
 }
 
 h2 {
-    color: var(--primary-color);
-    text-align: center;
+  color: var(--primary-color);
+  text-align: center;
+  font-size: xx-large;
 }
 
 a {
-    color: var(--primary-color);
+  color: var(--primary-color);
 }
 
 img {
-    max-width: 100%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
 }
 
 .container {
-    max-width: 800px;
-    margin: auto;
-    padding: 0 var(--spacing);
+  max-width: 800px;
+  margin: auto;
+  padding: 0 var(--spacing);
 }
